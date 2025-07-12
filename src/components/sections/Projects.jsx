@@ -37,7 +37,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Tushar5687/Nearby-Hospital-Locator"
+                  href="https://tushar5687.github.io/Nearby-Hospital-Locator/"
                   className="text-blue-400 hover:text-blue-300 transition-colors text-sm sm:text-base mt-3 inline-block"
                 >
                   View Project →
@@ -63,7 +63,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Tushar5687/Virtual-Assistant"
+                  href="https://tushar5687.github.io/Virtual-Assistant/"
                   className="text-blue-400 hover:text-blue-300 transition-colors text-sm sm:text-base mt-3 inline-block"
                 >
                   View Project →
