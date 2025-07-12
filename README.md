@@ -1,12 +1,64 @@
-# React + Vite
+# 💼 Tushar Sahni – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio built with **React (Vite)** and styled using **Tailwind CSS**. It highlights my technical skills, featured projects, resume, and includes a contact form powered by **EmailJS**.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Visit Portfolio](https://tushar5687.github.io/Tushar.Sahni-Portfolio/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🧑‍💻 About Me section
+- 💼 Featured Projects with links
+- 📬 Contact Form integrated with **EmailJS**
+- 📱 Mobile Responsive UI with **Tailwind CSS**
+- ⚡ Blazing fast using **Vite** as the build tool
+- 🧠 Scroll-triggered animations (custom reveal logic)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (with Vite)
+- **Styling:** Tailwind CSS
+- **Animations:** Custom scroll-based reveal effects
+- **Form Submission:** EmailJS
+- **Deployment:** GitHub Pages
+
+---
+
+## 📁 Project Structure
+
+```bash
+Portfolio/
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── LoadingScreen.jsx
+│   │   ├── MobileMenu.jsx
+│   │   ├── Navbar.jsx
+│   │   └── RevealOnScroll.jsx
+│   ├── components/sections/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Home.jsx
+│   │   └── Projects.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+├── .gitignore
+└── README.md
